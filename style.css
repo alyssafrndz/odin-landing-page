@@ -98,6 +98,7 @@ ul {
 .info img {
     width: 100px;
     height: auto;
+    flex-shrink: 1;
 }
 
 .infocontainer {
@@ -105,6 +106,7 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 16px;
+    
 }
 
 .infowrap {
@@ -112,10 +114,14 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 8px;
+    gap: 16px;
     width: 200px;
     vertical-align: top;
     text-align: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    height: 200px;
+    padding: 16px;
 }
 /* Quote */
 
@@ -169,8 +175,9 @@ ul {
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 56px;
-    display: flex;
+    display: inline-flex;
     gap: 16px;
+    margin: auto;
 }
 
 
